@@ -57,43 +57,43 @@ function RevealGroup({ children, className = '' }: { children: React.ReactNode; 
 
 // ─── DATA ───
 const boardMembers = [
-    { img: './WEMS_Site_Images/Team_Images/ravipatel.png', name: 'Ravi Patel', role: 'Board Member & Director', bio: 'Strategic leadership and corporate governance driving WorldEMS\'s growth trajectory. Provides overarching direction across all business verticals and investor relations.' },
-    { img: './WEMS_Site_Images/Team_Images/niravpatel.png', name: 'Nirav Patel', role: 'Board Member & Director', bio: 'Operational oversight and business development across all manufacturing verticals. Drives expansion strategy and multi-location facility governance.' },
-    { img: './WEMS_Site_Images/Team_Images/ketanpatel.png', name: 'Ketan Patel', role: 'Board Member & Director', bio: 'Financial strategy and investor relations ensuring sustainable business growth. Oversees capital allocation, financial planning, and stakeholder communications.' },
+    { img: './WEMS_Site_Images/Team_Images/ravisir2.png', name: 'Ravi Patel', role: 'Board Member & Director', bio: 'Strategic leadership and corporate governance driving WorldEMS\'s growth trajectory. Provides overarching direction across all business verticals and investor relations.' },
+    { img: './WEMS_Site_Images/Team_Images/niravsir2.png', name: 'Nirav Patel', role: 'Board Member & Director', bio: 'Operational oversight and business development across all manufacturing verticals. Drives expansion strategy and multi-location facility governance.' },
+    { img: './WEMS_Site_Images/Team_Images/ketansir2.png', name: 'Ketan Patel', role: 'Board Member & Director', bio: 'Financial strategy and investor relations ensuring sustainable business growth. Oversees capital allocation, financial planning, and stakeholder communications.' },
 ];
 
 const executives = [
     {
-        img: './WEMS_Site_Images/Team_Images/divyeshshah.png', name: 'Divyesh Shah', role: 'COO & Executive Director', initials: 'DS',
-        years: '30+ Years Experience',
-        bio: 'Electronics Engineer with 30+ years of experience. Core competency in R&D, Manufacturing & Customer Support. Previously at senior positions in Videocon Group and Abaj Technology.',
+        img: './WEMS_Site_Images/Team_Images/Divyesh Shah.png', name: 'Divyesh Shah', role: 'COO & Executive Director', initials: 'DS',
+        years: '25+ Years Experience',
+        bio: 'Electronics Engineer with 25+ years of experience. Core competency in R&D, Manufacturing & Customer Support. Previously at senior positions in Videocon Group and Abaj Technology.',
         tags: ['R&D', 'Manufacturing', 'Customer Support'],
         previous: ['Videocon', 'Abaj', 'JCT', 'SAMTEL'],
     },
     {
-        img: './WEMS_Site_Images/Team_Images/sandeepkalyankar.png', name: 'Sandeep Kalyankar', role: 'CBO & Executive Director', initials: 'SK',
-        years: '35 Years Experience',
-        bio: 'Electronics Engineer, MBA (Marketing), Materials Management from IIMM Bangalore. 35 years of experience in Consumer Durables & Hospitality. Expertise in EMS, Global SCM, Logistics & Business Development.',
+        img: './WEMS_Site_Images/Team_Images/Sandeep Kalyankar.png', name: 'Sandeep Kalyankar', role: 'CBO & Executive Director', initials: 'SK',
+        years: '25 Years Experience',
+        bio: 'Electronics Engineer, MBA (Marketing), Materials Management from IIMM Bangalore. 25 years of experience in Consumer Durables & Hospitality. Expertise in EMS, Global SCM, Logistics & Business Development.',
         tags: ['EMS', 'Global SCM', 'Logistics', 'Business Dev'],
         previous: ['LG', 'Reliance', 'Sharp', 'Videocon', 'Onida', 'JCT', 'SAMTEL', 'Abaj'],
     },
     {
-        img: './WEMS_Site_Images/Team_Images/mujaldesai.png', name: 'Munjal Desai', role: 'Sales & Marketing Head', initials: 'MD',
-        years: '30+ Years Experience',
-        bio: '30+ years experience in Consumer Durables & Mobile Industry. Expert in Electronics Display field, customer support, and production.',
+        img: './WEMS_Site_Images/Team_Images/Munjal Desai.png', name: 'Munjal Desai', role: 'Sales & Marketing Head', initials: 'MD',
+        years: '25+ Years Experience',
+        bio: '25+ years experience in Consumer Durables & Mobile Industry. Expert in Electronics Display field, customer support, and production.',
         tags: ['Sales', 'Marketing', 'Electronics Display'],
         previous: ['Onida', 'LG', 'Birla', 'AT&T'],
     },
     {
-        img: './WEMS_Site_Images/Team_Images/anilgundecha.png', name: 'Anil Gundecha', role: 'Head — Robot Department', initials: 'AG',
-        years: '36 Years Experience',
+        img: './WEMS_Site_Images/Team_Images/Anil Gundecha ​.png', name: 'Anil Gundecha', role: 'Head — Robot Department', initials: 'AG',
+        years: '25+ Years Experience',
         bio: 'B.E. Mechanical with 36 years experience across Consumer Electronics, Li-ion Battery, Automobile, and Mobile industries. Project Head, R&D Head, Factory Operations.',
         tags: ['Robotics', 'Li-ion Battery', 'R&D', 'Factory Ops'],
         previous: ['JCT', 'SAMTEL', 'Videocon', 'Abaj'],
     },
     {
-        img: './WEMS_Site_Images/Team_Images/abhaykurwalker.png', name: 'Abhay Kurwalkar', role: 'Head — R&D Department', initials: 'AK',
-        years: '28+ Years Experience',
+        img: './WEMS_Site_Images/Team_Images/Abhay Kurwalkar.png', name: 'Abhay Kurwalkar', role: 'Head — R&D Department', initials: 'AK',
+        years: '25+ Years Experience',
         bio: '28+ years in Consumer Electronics specializing in R&D Testing, QC Improvement, and TV Platform & Vendor Development.',
         tags: ['R&D Testing', 'QC', 'TV Platforms', 'Vendor Dev'],
         previous: ['Videocon', 'Toshiba', 'Philips'],

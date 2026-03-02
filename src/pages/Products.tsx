@@ -71,8 +71,8 @@ const categories: CategoryData[] = [
     ],
     products: [
       { name: 'Smart LED TVs', spec: 'Our smart LED TVs run on Android or Linux and come in sizes from 24” to 115”. We offer OEM and ODM options to make them fit different needs, with full quality checks and compliance with regulations.', badge: '600K units/yr', image: './Home_Page_Images/tv.png' },
-      { name: 'Digital Signage & IFPDs', spec: 'We manufacture digital signage from 32" to 75" and Interactive Flat Panel Displays from 55" to 75", built for enterprise, education, retail, and government use, with ODM support and BIS certification.', badge: 'On order', image: './Product_page/Smart_Displays/ifpd.png' },
-      { name: 'Smart TV Platform', spec: 'Our smart TV platform is easy to use and full of features like app integration, voice control, and automatic updates. It can be scaled for OEM and ODM production and provides a modern and smooth user experience.', badge: '150K target FY27', image: './Product_page/Smart_Displays/smarttv.png' },
+      { name: 'Digital Signage', spec: 'We manufacture digital signage ranging from 32" to 75", designed for enterprise, retail, and government applications. Our solutions come with ODM support and BIS certification.', badge: 'On order', image: './Product_page/Smart_Displays/dg.png' },
+      { name: 'IFPDs', spec: 'Our IFPDs from 55" to 75" are built for education, enterprise, and government use, offering interactive features, ODM support, and BIS certification.', badge: '150K target FY27', image: './Product_page/Smart_Displays/ifpd.png' },
     ],
     useCases: [
       { icon: '🏪', label: 'Regional Electronics Brands' },
@@ -103,9 +103,9 @@ const categories: CategoryData[] = [
       // { src: './Product_page/AI_Robotics/img5.png', label: '' },
     ],
     products: [
-      { name: 'Odigo', spec: 'Odigo is an autonomous service robot designed for surveillance, assistance, and interactive engagement in commercial spaces. Built for reliable mobility, real-time monitoring, and scalable deployment.', badge: 'Custom runs', image: './Product_page/AI_Robotics/img4.png' },
+      { name: 'AI Powered Advertising Robot', spec: 'Our robot drives foot traffic and sales with dynamic, targeted ads across malls, airports, events, and large venues.', badge: 'Custom runs', image: './Product_page/AI_Robotics/img4.png' },
       { name: 'Medical Robots', spec: 'Medical robots designed to monitor and record patient vitals with accuracy and consistency. Built to support healthcare teams with reliable, real-time health data.', badge: 'Under development', image: './Product_page/AI_Robotics/img6.png' },
-      { name: 'Vulcan', spec: 'The Vulcan Robot is an industrial robotic arm designed for precision automation in manufacturing and assembly. Built for reliability and scalable deployment across high-volume production environments.', badge: 'Available now', image: './Product_page/AI_Robotics/img2.png' },
+      { name: 'Heavy Cleaning Robot ', spec: 'Our smart cleaning robots ensure efficient, powerful cleaning across diverse spaces while optimizing resources and hygiene.', badge: 'Available now', image: './Product_page/AI_Robotics/img2.png' },
     ],
     useCases: [
       { icon: '🏭', label: 'Manufacturing Plants' },
@@ -136,9 +136,9 @@ const categories: CategoryData[] = [
       { src: galleryAudioTesting, label: 'Audio Testing Room' },
     ],
     products: [
-      { name: 'Smart Wireless Speakers', spec: 'Bluetooth and Wi-Fi-enabled speakers with voice assistant support. Available in multiple sizes and power options.', badge: 'Volume pricing', image: galleryAudioSpeaker },
-      { name: 'Soundbars & Home Theatre', spec: 'Home audio systems from 2.0 to 5.1 channel setups. Supports Dolby and DTS. Available for OEM and ODM manufacturing.', badge: 'Available now', image: galleryAudioSoundbar },
-      { name: 'Home Audio & Party Speakers ', spec: 'Home audio systems and party speakers designed for powerful, room-filling sound. Built for consistent performance, modern features, and scalable manufacturing.', badge: 'B2B orders', image: galleryAudioTesting },
+      { name: 'Smart Audio', spec: 'Bluetooth and Wi-Fi-enabled speakers with voice assistant support. Available in multiple sizes and power options.', badge: 'Volume pricing', image: galleryAudioSpeaker },
+      { name: 'Home Theatre ', spec: 'Home audio systems from 2.0 to 5.1 channel setups. Supports Dolby and DTS. Available for OEM and ODM manufacturing.', badge: 'Available now', image: galleryAudioSoundbar },
+      { name: 'Party Speakers', spec: 'Party speakers designed for powerful, room-filling sound. Built for consistent performance, modern features, and scalable manufacturing.', badge: 'B2B orders', image: galleryAudioTesting },
     ],
     useCases: [
       { icon: '📱', label: 'Consumer Electronics Brands' },
