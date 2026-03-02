@@ -1,0 +1,209 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 73% 97%;
+    --foreground: 214 64% 14%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 214 64% 14%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 214 64% 14%;
+
+    --primary: 213 67% 32%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 215 72% 95%;
+    --secondary-foreground: 214 64% 14%;
+
+    --muted: 220 18% 97%;
+    --muted-foreground: 218 12% 65%;
+
+    --accent: 45 100% 55%;
+    --accent-foreground: 214 64% 14%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 22% 91%;
+    --input: 220 22% 91%;
+    --ring: 213 67% 32%;
+
+    --radius: 0.75rem;
+
+    /* Custom World EMS tokens */
+    --blue-deep: 214 64% 14%;
+    --blue-mid: 213 67% 32%;
+    --blue-light: 215 62% 53%;
+    --blue-tint: 215 72% 95%;
+    --blue-pale: 220 73% 97%;
+    --yellow: 45 100% 55%;
+    --wems-black: 0 0% 4%;
+    --wems-white: 0 0% 100%;
+    --grey-100: 220 18% 97%;
+    --grey-200: 220 22% 91%;
+    --grey-400: 218 12% 65%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Chivo', sans-serif;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Chivo', sans-serif;
+  }
+
+  section[id] {
+    scroll-margin-top: 4rem;
+  }
+}
+
+/* Eyebrow label style */
+.eyebrow {
+  @apply uppercase tracking-[2px] text-xs font-bold;
+}
+
+/* Yellow rule draw animation */
+@keyframes draw-line {
+  from {
+    transform: scaleX(0);
+  }
+
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.yellow-rule {
+  @apply h-1 bg-accent origin-left;
+  animation: draw-line 0.6s ease-out 0.6s both;
+}
+
+/* Pulsing dot */
+@keyframes pulse-dot {
+
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.6);
+    opacity: 0.4;
+  }
+}
+
+.pulse-dot {
+  animation: pulse-dot 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Marquee */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Count up animation helper */
+@keyframes count-fade {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Nav link underline */
+.nav-link {
+  @apply relative;
+}
+
+.nav-link::after {
+  content: '';
+  @apply absolute bottom-0 left-0 w-full h-0.5 bg-accent origin-left transition-transform duration-300;
+  transform: scaleX(0);
+}
+
+.nav-link:hover::after,
+.nav-link-active::after {
+  transform: scaleX(1);
+}
+
+.nav-link-active {
+  @apply text-blue-deep;
+}
+
+/* Strength card top border */
+.strength-card {
+  @apply relative overflow-hidden;
+}
+
+.strength-card::before {
+  content: '';
+  @apply absolute top-0 left-0 w-full h-[3px] bg-accent origin-left transition-transform duration-500;
+  transform: scaleX(0);
+}
+
+.strength-card:hover::before {
+  transform: scaleX(1);
+}
+
+/* Leader card grayscale */
+.leader-card img {
+  @apply transition-all duration-500;
+  filter: saturate(0.7);
+}
+
+.leader-card:hover img {
+  filter: saturate(1);
+  transform: scale(1.05);
+}
+
+/* Scroll reveal base */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
