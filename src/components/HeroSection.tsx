@@ -1,9 +1,5 @@
 import { useState } from 'react';
 import { useCountUp } from '@/hooks/useCountUp';
-import heroFactory from '@/assets/hero-factory.jpg';
-import heroFloor from '@/assets/hero-manufacturing-floor.jpg';
-import productDisplay from '@/assets/product-smart-display.jpg';
-import productRobotics from '@/assets/product-robotics.jpg';
 
 const categories = [
   { icon: '📺', name: 'Smart Displays', subtitle: 'TV · IFPD · Digital Signage', tag: 'Core Business' },
@@ -103,7 +99,7 @@ export default function HeroSection() {
             {/* Top — spans both cols */}
             <div className="col-span-2 overflow-hidden group">
               <img
-                src={'./Home_Page_Images/Factory.png'}
+                src={'./Home_Page_Images/manufacture.png'}
                 alt="World EMS manufacturing facility"
                 className="w-full h-full object-cover brightness-[0.82] group-hover:brightness-100 group-hover:scale-[1.07] transition-all duration-[600ms]"
                 loading="eager"
@@ -130,32 +126,28 @@ export default function HeroSection() {
           </div>
 
           {/* Floating stat pills — bottom-left */}
-          <div className="absolute bottom-7 left-7 flex gap-1.5 z-20">
-            {/* Pill 1 — Revenue */}
+          {/* <div className="absolute bottom-7 left-7 flex gap-1.5 z-20">
             <div ref={revenue.ref} className="bg-accent rounded-xl px-4 py-3 min-w-[140px]">
               <span className="font-chivo font-black text-[22px] md:text-[26px] text-blue-deep block leading-tight">
                 {revenue.display}
               </span>
               <span className="font-chivo font-light text-[11px] text-blue-deep/60">Revenue FY 2024–25</span>
             </div>
-            {/* Pill 2 — Growth */}
             <div ref={growth.ref} className="bg-[rgba(13,31,58,0.82)] backdrop-blur-[12px] border border-white/10 rounded-xl px-4 py-3 min-w-[120px]">
               <span className="font-chivo font-black text-[22px] md:text-[26px] text-white block leading-tight">
                 {growth.display}
               </span>
               <span className="font-chivo font-light text-[11px] text-white/60">Revenue growth YoY</span>
             </div>
-            {/* Pill 3 — Footprint */}
             <div ref={footprint.ref} className="bg-[rgba(13,31,58,0.82)] backdrop-blur-[12px] border border-white/10 rounded-xl px-4 py-3 min-w-[120px]">
               <span className="font-chivo font-black text-[22px] md:text-[26px] text-white block leading-tight">
                 {footprint.display}
               </span>
               <span className="font-chivo font-light text-[11px] text-white/60">Sq. ft. footprint</span>
             </div>
-          </div>
+          </div> */}
 
-          {/* Certification badges — bottom-right */}
-          <div className="absolute bottom-7 right-7 flex flex-wrap gap-1.5 justify-end max-w-[240px] z-20">
+          {/* <div className="absolute bottom-7 right-7 flex flex-wrap gap-1.5 justify-end max-w-[240px] z-20">
             {certs.map((c) => (
               <span
                 key={c}
@@ -164,7 +156,7 @@ export default function HeroSection() {
                 {c}
               </span>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -1,22 +1,22 @@
 const productLinks = [
-  { label: 'Smart Displays', href: '/#products' },
-  { label: 'AI Robotics', href: '/#products' },
-  { label: 'Smart Audio', href: '/#products' },
-  { label: 'New Energy', href: '/#products' },
-  { label: 'Digital Signage', href: '/#products' }
+  { label: 'Smart Displays', href: '/products' },
+  { label: 'AI Robotics', href: '/products' },
+  { label: 'Smart Audio', href: '/products' },
+  { label: 'New Energy', href: '/products' },
+  { label: 'Digital Signage', href: '/products' }
 ];
 const companyLinks = [
-  { label: 'About', href: '/#about' },
-  { label: 'Leadership', href: '/#leadership' },
+  // { label: 'About', href: '/#about' },
+  { label: 'Leadership', href: '/leadership' },
   { label: 'Our Journey', href: '/#timeline' },
   { label: 'Certifications', href: '/#certifications' },
-  { label: 'Infrastructures', href: '/#infrastructure' },
-  { label: 'Contact', href: '/#contact' }
+  { label: 'Infrastructures', href: '/infrastructure' },
+  { label: 'Contact', href: '/contact' }
 ];
 const mfgLinks = [
-  { label: 'Ahmedabad Facility', href: '/#infrastructure' },
-  { label: 'Greater Noida', href: '/#infrastructure' },
-  { label: 'Shenzhen Sourcing', href: '/#infrastructure' }
+  { label: 'Ahmedabad Facility', href: '/infrastructure' },
+  { label: 'Greater Noida', href: '/infrastructure' },
+  { label: 'Global Sourcing', href: '/infrastructure' }
 ];
 
 function LinkColumn({ title, links }: { title: string; links: { label: string; href: string }[] }) {
@@ -44,8 +44,9 @@ export default function FooterSection() {
           {/* Brand */}
           <div>
             <span className="font-chivo font-black text-xl">
-              <span className="text-primary-foreground">WORLD</span>
-              <span className="text-accent ml-0.5">EMS</span>
+              {/* <span className="text-primary-foreground">WORLD</span>
+              <span className="text-accent ml-0.5">EMS</span> */}
+              <img src="./logos/WEMS_White.png" alt="" style={{height:'40px'}}/>
             </span>
             <p className="font-chivo font-light text-sm text-primary-foreground/40 mt-4 leading-relaxed">
               Your partner in next-generation electronics brand building. Precision. Innovation. Sustainability.
