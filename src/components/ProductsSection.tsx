@@ -61,13 +61,13 @@ export default function ProductsSection() {
             />
             <div className="grid grid-rows-2 gap-[3px]">
               <ProductCard
-                image={'./Home_Page_Images/airobotics.png'}
+                image={'./Product_page/AI_Robotics/robots.png'}
                 tag="Future Tech"
                 title="AI Robotics"
                 subtitle="Service robots, medical robotics & industrial automation"
               />
               <ProductCard
-                image={productAudio}
+                image={'./Product_page/Audio/audio1.png'}
                 tag="Consumer Ecosystem"
                 title="Smart Audio"
                 subtitle="Bluetooth speakers, soundbars & home audio systems"
@@ -80,7 +80,7 @@ export default function ProductsSection() {
             <ProductCard
               image={productEnergy}
               tag="Upcoming"
-              title="Next Gen Electronics Systems"
+              title="Next Gen Tech"
               subtitle="EV chargers, battery management & solar inverters"
             />
             <ProductCard
