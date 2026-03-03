@@ -17,10 +17,10 @@ export default function HeroSection() {
   const [hoveredRow, setHoveredRow] = useState<number | null>(null);
 
   return (
-    <section className="min-h-screen pt-[65px]">
-      <div className="grid grid-cols-1 lg:grid-cols-2">
+    <section className="bg-card pt-[65px]">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2">
         {/* LEFT COLUMN — White */}
-        <div className="bg-card flex flex-col justify-between p-8 md:p-12 lg:p-14 overflow-y-auto">
+        <div className="flex flex-col justify-between py-8 overflow-y-auto">
           <div>
             {/* Eyebrow */}
             {/* <div className="inline-flex items-center gap-2 bg-accent/15 rounded-full px-4 py-1.5 mb-8">
@@ -64,9 +64,9 @@ export default function HeroSection() {
               <div
                 key={cat.name}
                 className="flex items-center gap-4 py-3 px-2 rounded-lg cursor-pointer transition-all duration-300 group"
-                style={{ transform: hoveredRow === i ? 'translateX(6px)' : 'translateX(0)' }}
-                onMouseEnter={() => setHoveredRow(i)}
-                onMouseLeave={() => setHoveredRow(null)}
+                // style={{ transform: hoveredRow === i ? 'translateX(3px)' : 'translateX(0)' }}
+                // onMouseEnter={() => setHoveredRow(i)}
+                // onMouseLeave={() => setHoveredRow(null)}
               >
                 <div className="w-9 h-9 rounded-lg bg-blue-pale flex items-center justify-center text-base flex-shrink-0">
                   {cat.icon}
