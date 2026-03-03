@@ -20,7 +20,7 @@ export default function HeroSection() {
     <section className="bg-card pt-[65px]">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2">
         {/* LEFT COLUMN — White */}
-        <div className="flex flex-col justify-between py-8 overflow-y-auto">
+        <div className="container mx-auto px-4 flex flex-col justify-between py-8 overflow-y-auto">
           <div>
             {/* Eyebrow */}
             {/* <div className="inline-flex items-center gap-2 bg-accent/15 rounded-full px-4 py-1.5 mb-8">
