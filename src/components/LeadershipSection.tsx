@@ -36,6 +36,7 @@ function LeaderCard({ img, name, role, aspect = 'aspect-[3/4]' }: LeaderCardProp
         <span className="font-chivo font-light text-sm text-accent">{role}</span>
       </div>
     </div>
+    
   );
 }
 
