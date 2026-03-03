@@ -1,17 +1,17 @@
 import { useScrollReveal } from '@/hooks/useScrollReveal';
 
 const topRow = [
-  { img: './WEMS_Site_Images/Team_Images/ravipatel.png', name: 'Ravi Patel', role: 'Board Member & Director' },
-  { img: './WEMS_Site_Images/Team_Images/niravpatel.png', name: 'Nirav Patel', role: 'Board Member' },
-  { img: './WEMS_Site_Images/Team_Images/ketanpatel.png', name: 'Ketan Patel', role: 'Board Member' },
+  { img: './WEMS_Site_Images/Team_Images/ravisir2.png', name: 'Ravi Patel', role: 'Board Member & Director' },
+  { img: './WEMS_Site_Images/Team_Images/niravsir2.png', name: 'Nirav Patel', role: 'Board Member' },
+  { img: './WEMS_Site_Images/Team_Images/ketansir2.png', name: 'Ketan Patel', role: 'Board Member' },
 ];
 
 const bottomRow = [
-  { img: './WEMS_Site_Images/Team_Images/sandeepkalyankar.png', name: 'Sandeep Kalyankar', role: 'CBO & Executive Director' },
-  { img: './WEMS_Site_Images/Team_Images/divyeshshah.png', name: 'Divyesh Shah', role: 'COO & Executive Director' },
-  { img: './WEMS_Site_Images/Team_Images/anilgundecha.png', name: 'Anil Gundecha', role: 'Head, Robot Department' },
-  { img: './WEMS_Site_Images/Team_Images/abhaykurwalker.png', name: 'Abhay Kurwalkar', role: 'Head R&D Department' },
-  { img: './WEMS_Site_Images/Team_Images/mujaldesai.png', name: 'Munjal Desai', role: 'Sales & Marketing Head' },
+  { img: './WEMS_Site_Images/Team_Images/Sandeep Kalyankar.png', name: 'Sandeep Kalyankar', role: 'CBO & Executive Director' },
+  { img: './WEMS_Site_Images/Team_Images/Divyesh Shah.png', name: 'Divyesh Shah', role: 'COO & Executive Director' },
+  { img: './WEMS_Site_Images/Team_Images/Anil Gundecha ​.png', name: 'Anil Gundecha', role: 'Head, Robot Department' },
+  { img: './WEMS_Site_Images/Team_Images/Abhay Kurwalkar.png', name: 'Abhay Kurwalkar', role: 'Head R&D Department' },
+  { img: './WEMS_Site_Images/Team_Images/Munjal Desai.png', name: 'Munjal Desai', role: 'Sales & Marketing Head' },
 ];
 
 interface LeaderCardProps {
