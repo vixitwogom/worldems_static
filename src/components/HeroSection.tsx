@@ -30,15 +30,15 @@ export default function HeroSection() {
 
             {/* Headline */}
             <h1 className="font-chivo font-black text-[36px] md:text-[48px] lg:text-[52px] leading-[1.1] tracking-[-1.5px] text-blue-deep mb-6">
-              Built to Scale
+              Driving the Next Wave of 
               <span className="block font-light italic text-blue-mid mt-1">
-                Engineered to Perform.
+                Innovation.
               </span>
             </h1>
 
             {/* Body */}
             <p className="font-chivo font-light text-[15px] leading-[1.75] text-grey-400 max-w-md mb-8">
-              Precision-led manufacturing across consumer electronics, EVs, and advanced automation built for scale with reliability.
+              With a focus on progress and adaptability, WEMS empowers partners through insight-led decisions, scalable solutions, and a commitment to excellence.
             </p>
 
             {/* Buttons */}
@@ -108,7 +108,7 @@ export default function HeroSection() {
             {/* Bottom-left */}
             <div className="overflow-hidden group">
               <img
-                src={'./Home_Page_Images/robots.png'}
+                src={'./Product_page/AI_Robotics/odigorobot.png'}
                 alt="Industrial robot arm"
                 className="w-full h-full object-cover brightness-[0.82] group-hover:brightness-100 group-hover:scale-[1.07] transition-all duration-[600ms]"
                 loading="eager"

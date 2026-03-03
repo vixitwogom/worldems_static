@@ -4,7 +4,7 @@ import { Factory, MonitorSmartphone, Users, Award } from "lucide-react";
 
 const stats = [
     { icon: Factory, value: 365000, suffix: " sq. ft.", label: "Manufacturing Footprint" },
-    { icon: MonitorSmartphone, value: 15000, suffix: " Units/Mo", label: "Peak TV Capacity" },
+    { icon: MonitorSmartphone, value: 600000, suffix: " Units", label: "Peak TV Capacity" },
     { icon: Users, value: 350, suffix: "+", label: "Dedicated Professionals" },
     { icon: Award, value: 4, suffix: "", label: "Global Accreditations" },
 ];
